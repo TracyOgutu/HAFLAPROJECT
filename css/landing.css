@@ -13,10 +13,15 @@ ul {
 li a {
     display: block;
     color:whitesmoke;
-    padding: 15px 30px;
+    padding: 5px 10px;
     text-decoration: none;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 155px;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Fredericka the Great', cursive;
+
 }
 li a:hover{
     background-color: #111;
@@ -29,13 +34,39 @@ li{
   background-repeat: no-repeat;
   height: 500px;
   text-align: center;
-  top
 }
 b{
-  color:maroon;
+  color:rgb(8, 5, 5);
+  font-family: 'Great Vibes', cursive;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Faster One', cursive;
+
 }
 p{
- font-family: ;
- font-size: 25px;
+ font-family:'Tangerine', cursive;
+ font-size: 50px;
  font-style: inherit;
+}
+.fix{
+  width:200px;
+  height:120px;
+  float:left;
+  margin-left:10px;
+  background-color: transparent;
+}
+.group{
+  width: 320px;
+    height: 300px;
+    border-radius: 10px;
+}
+em{
+  font-family: 'Great Vibes', cursive;
+  font-family: 'Fredericka the Great', cursive;
+}
+h4{
+  font-family: 'Berkshire Swash', cursive;
+  color:midnightblue;
+}
+i{
+  font-size:50px;
 }
