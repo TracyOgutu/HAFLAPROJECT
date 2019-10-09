@@ -1,0 +1,80 @@
+.one{
+    background-image: url(/image/bg6.jpg);
+    background-size: cover;
+}
+
+
+#img{
+    border-radius: 50%;
+    padding:50px;
+}
+input[type=text] {
+    width: 100%;
+    border: 3px solid ;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 15px;
+   }
+
+  input[type=text]:focus {
+    border: 3px solid greenyellow;
+  }
+  
+
+ 
+  input[type=number] {
+    width: 100%;
+    border: 3px solid;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 15px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('/image/phone.png');
+    background-size: 25px;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+   
+  }
+
+  input[type=number]:focus {
+    border: 3px solid greenyellow;
+  }
+  
+
+  
+  input[type=email] {
+    width: 100%;
+    border:3px  solid;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 15px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('/image/mail.png');
+    background-size: 25px;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+   
+  }
+
+  input[type=email]:focus {
+    border: 3px solid greenyellow;
+  }
+
+  #form1{
+      color:white;
+      padding:30px; 
+  }
+  input[type=submit]:focus {
+    border:3px  solid yellow;
+  }
+  
+  
+
+  
