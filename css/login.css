@@ -1,3 +1,8 @@
+body{
+  background-image: url(../login.img/imgB.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .login-page{
   width: 360px;
   padding: 10%;
@@ -52,4 +57,8 @@
 }
 .form .signup{
   display: none;
+}
+.logo{
+  left:0px;
+
 }
