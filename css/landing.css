@@ -36,15 +36,19 @@ li{
   text-align: center;
 }
 b{
-  color:rgb(8, 5, 5);
+  
+  font-family: 'Berkshire Swash', cursive;
+  color:midnightblue;
   font-family: 'Great Vibes', cursive;
-font-family: 'Fredericka the Great', cursive;
-font-family: 'Faster One', cursive;
-
+  font-family: 'Fredericka the Great', cursive;
+  font-family: 'Faster One', cursive;
+  font-family: 'Nosifer', cursive;
 }
 p{
- font-family:'Tangerine', cursive;
- font-size: 50px;
+font-family: 'Rye', cursive;
+ font-family: 'Frijole', cursive;
+ font-family: 'IM Fell Double Pica SC', serif;
+ font-size: 35px;
  font-style: inherit;
 }
 .fix{
@@ -56,17 +60,22 @@ p{
 }
 .group{
   width: 320px;
-    height: 300px;
-    border-radius: 10px;
+  height: 300px;
+  border-radius: 10px;
 }
 em{
   font-family: 'Great Vibes', cursive;
   font-family: 'Fredericka the Great', cursive;
 }
 h4{
-  font-family: 'Berkshire Swash', cursive;
-  color:midnightblue;
+  color:black;
+  font-family: 'Great Vibes', cursive;
+  font-family: 'Fredericka the Great', cursive;
+  font-family: 'Faster One', cursive;
 }
 i{
   font-size:50px;
+}
+.title{
+  font-family: 'Griffy', cursive;
 }
