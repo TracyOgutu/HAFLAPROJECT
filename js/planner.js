@@ -1,24 +1,9 @@
 $(document).ready(function(){
-
-
-
-
-
    var firstname;
    var lastname;
    var email;
    var password;
    var description;
-
-
-
-
-
-
-
-
-
-
 
 $("form#planner-detail").submit(function(event){
    event.preventDefault();
@@ -30,7 +15,7 @@ $("form#planner-detail").submit(function(event){
    password =$("#passwordinput").val();
    description=$("#descriptioninput").val();
 
-   // display(firstname,lastname,email)
+    display(firstname,lastname,email)
 
    alert("anything");
 });
