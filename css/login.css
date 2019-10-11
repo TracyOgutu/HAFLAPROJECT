@@ -1,12 +1,18 @@
-body{
+.try{
   background-image: url("../login.img/img2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  height:100%;
+  width:100%;
+  position: fixed;
 }
 .login-page{
   width: 360px;
   padding: 10%;
   margin: auto;
+  position: absolute;
+  top:20%;
+  left:26%;
 }
 .form{
   position: relative;
@@ -61,4 +67,5 @@ body{
   display: none;
 }
 #logo{
+  width:17%;
 }

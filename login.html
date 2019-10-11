@@ -3,13 +3,50 @@
 
 <head>
   <meta charset="utf-8">
-  <title>HAFLA</title>
-  <link rel="stylesheet" href="css/login.css">
+  <title>HAFLA LOGIN</title>
+  
+    <link rel="stylesheet" href="css/login.css" type="text/css">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha384-mlceH9HlqLp7GMKHrj5Ara1+LvdTZVMx4S1U43/NxCvAkzIo8WJ0FE7duLel3wVo" crossorigin="anonymous"></script>
+    <script src="js/planner.js"></script>
+  
+
 
 </head>
 
 <body>
-  <div class="logo">
+  <div class="try">
+      <div class="logo">
+          <img src="login.img/haflalogoaziz.png"  width="200px" id="logo">
+        </div>
+        <div class="login-page">
+
+          <div class="form">
+
+            <form class="signup">
+              <input type="text" placeholder="Username" id ="username"/>
+              
+              <input type="email" placeholder="email" id ="email" />
+              <input type="password" placeholder="password" id="password" />
+              <button>Create account</button>
+              <p class="message"><b>Already have an account?</b><a href="#"><b>Log in</b></a>
+              </p>
+            </form>
+      
+            <form class="login-form" >
+                <input type="text" placeholder="Username" id ="username-login"/>
+              <input type="password" placeholder="password" id ="password-login" />
+              <button>Login</button>
+              <p class="message">Create account? <a href="#">Sign up</a>
+              </p>
+      
+            </form>
+      
+          </div>
+      
+        </div>    
+  </div>
+  <!-- <div class="logo">
     <img src=".//login.img/haflalogoaziz.png"  width="200px" id="logo">
   </div>
   <div class="login-page">
@@ -34,7 +71,7 @@
 
     </div>
 
-  </div>
+  </div> -->
   <script src="./js/login.js"></script>
 
 
