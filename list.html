@@ -18,6 +18,11 @@
     <link href="https://fonts.googleapis.com/css?family=Nosifer&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Frijole|IM+Fell+Double+Pica+SC|Rye&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Griffy&display=swap" rel="stylesheet">
+    
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha384-mlceH9HlqLp7GMKHrj5Ara1+LvdTZVMx4S1U43/NxCvAkzIo8WJ0FE7duLel3wVo" crossorigin="anonymous"></script>
     <script src="js/planner.js"></script>
@@ -31,69 +36,159 @@
                                   <ul>
                                    
                                     <li><a href="landing.html">ABOUT US</a></li>
-                                    <li><a href="planner.html">NEW PLANNER</a></li>
-                                    <li><a href="list.html">PLANNER LIST</a> </li>                                  
+                                    <li><a href="list.html">PLANNERS</a> </li> 
+                                    <li><a href="contact.html">CONTACT</a> </li>                                   
                                   </ul>                             
                                 </nav><br> 
                             </div>
-                            <div id="about us">
-                                    <p>Helping in event and meeting planners create valuable in-person experience,<br>grow  influential communities and expand brands</p>
+                            <div id="aboutus">
+                                    <p id ="about-us">Hafla, the bridge where clients meets planner <br><br></p>
                             </div>
 
                 </div>
+               
+                <p>Our planners avail a myriad of 
+                        choices, saving you time and unnecessary stress.
+                        </p>
 
-                <div class ="planner1">
-                        <img id="img" src="image/face1.jpg" width="300px">
+                <div class="card row" id ="planner1">
 
-                        <div class ="planner-text">
+                    <div>
+                            <img id="img" src="img/planner1.jpeg" width="15%" >
 
-                            <h3>Name: Rosalinda Nyangweso</h3>
-                            <h3>Phone: Rosalinda Nyangweso</h3>
-                            <h3>Email: Rosalinda Nyangweso</h3>
-                            <h3>: Rosalinda Nyangweso</h3>
-                            <h3>Name: Rosalinda Nyangweso</h3>
-                            
+                    </div>
+                        
+                        <div id ="planner-text" width="25%">
 
-                           <p>I have done many things</p>
-
-
-                        </div>
-
-
-
-                </div>
-
-            <!-- <div class="one">
+                                <h3>Name: Shirley Ross</h3>
+                                <h3>Phone: +260 778 675 345<h3>
+                                <h3>Email: shirleyross@gmail.com</h3>
+                                <h3>Experience: 10 years </h3>
+                               
+    
+                               <h3>I specialize in designing state of the art weddings </h3>
+    
+                               <h3 id ="messageme" data-toggle="modal" data-target="#exampleModal">Message me</h3>
+    
+    
+                            </div>
+                            <div>
+                                    <img id="img" src="img/planner2.jpg" width="15%" >
+        
+                            </div>
+                                
+                                <div id ="planner-text" width="25%">
+        
+                                        <h3>Name: Tom Ford</h3>
+                                        <h3>Phone: +275 778 675 345<h3>
+                                        <h3>Email: tomford@gmail.com</h3>
+                                        <h3>Experience: 5 years </h3>
+                                       
+            
+                                       <h3>I organize birthdays and conferences</h3>
+            
+                                       <h3 id ="messageme" data-toggle="modal" data-target="#exampleModal">Message me</h3>
+            
+            
+                                    </div>
+                                    <div>
+                                            <img id="img" src="img/planner3.jpg" width="15%" >
                 
+                                    </div>
+                                        
+                                        <div id ="planner-text" width="25%">
+                
+                                                <h3>Name: Chen Yang</h3>
+                                                <h3>Phone: +1 609 675 345<h3>
+                                                <h3>Email: chenyang@gmail.com</h3>
+                                                <h3>Experience: 20 years </h3>
+                                               
+                    
+                                               <h3>I specialize in large scale banquets </h3>
+                    <div>  </div>
+                                             
+                    
+                    
+                                            </div>
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+
+                                    <h5 class="modal-title" id="exampleModalLabel">HAFLA USER MESSAGE </h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <!-- Begin Mailchimp Signup Form -->
+                                        <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+                                        <style type="text/css">
+                                            #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+                                            /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+                                            We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                                        </style>
+                                        <div id="mc_embed_signup">
+                                        <form action="https://gmail.us20.list-manage.com/subscribe/post?u=4cb42a57eff7a34565a132928&amp;id=267980e2ba" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                            <div id="mc_embed_signup_scroll">
+                                            <h2>Type your message</h2>
+                                        <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+                                        <div class="mc-field-group">
+                                            <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+                                        </label>
+                                            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                                        </div>
+                                        <div class="mc-field-group">
+                                            <label for="mce-NAME">Name </label>
+                                            <input type="text" value="" name="NAME" class="" id="mce-NAME">
+                                        </div>
+                                        <div class="mc-field-group size1of2">
+                                            <label for="mce-BIRTHDAY-month">Birthday </label>
+                                            <div class="datefield">
+                                                <span class="subfield monthfield"><input class="birthday " type="text" pattern="[0-9]*" value="" placeholder="MM" size="2" maxlength="2" name="BIRTHDAY[month]" id="mce-BIRTHDAY-month"></span> / 
+                                                <span class="subfield dayfield"><input class="birthday " type="text" pattern="[0-9]*" value="" placeholder="DD" size="2" maxlength="2" name="BIRTHDAY[day]" id="mce-BIRTHDAY-day"></span> 
+                                                <span class="small-meta nowrap">( mm / dd )</span>
+                                            </div>
+                                        </div><div class="mc-field-group">
+                                            <label for="mce-MESSAGE">Message </label>
+                                            <input type="text" value="" name="MESSAGE" class="" id="mce-MESSAGE">
+                                        </div>
+                                            <div id="mce-responses" class="clear">
+                                                <!-- <p class="trial">
+                                                    Thank you for your message. Please check your email.
+                                                </p> -->
+
+
+                                                <!-- THIS IS THE MESSAGE PART OF IT -->
+                                                <div class="response" id="mce-error-response" style="display:none"></div>
+                                                <div class="response" id="mce-success-response" style="display:none"></div>
+                                            </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_4cb42a57eff7a34565a132928_267980e2ba" tabindex="-1" value=""></div>
+                                            <div class="clear"><input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                                            </div>
+                                        </form>
+                                        </div>
+                                        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='NAME';ftypes[1]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';fnames[6]='MESSAGE';ftypes[6]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+                                        <!--End mc_embed_signup-->
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
     
-                <div class="row">
-                    <div class="col-md-4">
-                            <img id="img" src="image/face1.jpg" width="300px">
-                    </div>
-    
-                    <div class="col-md-8">
-                        <form id="form1">
-                            NAME:<br>
-                            <input type="text" name="NAME" value="HAMDI JAMA" readonly>
-                            <br><br>
-                            PHONE NUMBER:<br>
-                            <input type="number" name="PHONE" value="0746289496" readonly>
-                            <br><br>
-                            EMAIL:<br>
-                            <input type="email" name="Email" value="hamdi469959@gmail.com" readonly>
-                            DESCRIPTION:<br>
-                            <input type="text" name="Description" value="For the past couple years,madam Hamdi has been best at planning weddings!She would love to work with you." readonly>
-    
-                            <br><br>
-                            <input  type="submit" value="Submit">
-                        </form>
-    
-                    </div>
-    
+
                 </div>
-    
-    
-            </div> -->
+
+                        
+
+
+                
+
+        
     
     
     

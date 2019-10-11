@@ -4,6 +4,11 @@ $(document).ready(function(){
     $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
   });
 
+  $("button").click(function(){
+    $("trial").show();
+  });
+
+
 
   function UserLogin(userLogin, passLogin){
     this.userLogin = userLogin;
@@ -65,6 +70,7 @@ $(".login-form").submit(function(event){
     
   });
 
+  
 
 });
 
